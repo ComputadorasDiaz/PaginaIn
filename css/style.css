@@ -404,7 +404,7 @@
 .project-item::before {
     content: "";
     width: 100%;
-    height: 40%;
+    height: 60%;
     background: var(--bs-dark);
     position: absolute;
     top: 0px;
@@ -418,7 +418,7 @@
     content: "";
     width: 100%;
     height: 60%;
-    background: var(--bs-primary);
+    background: #8BC34A;
     position: absolute;
     bottom: 0px;
     left: 0px;
@@ -476,7 +476,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1) rotate(0deg);
-    background: var(--bs-primary);
+    background: #8BC34A;
     color: var(--bs-dark) !important;
     opacity: 1;
 
