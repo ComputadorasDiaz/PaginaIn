@@ -266,6 +266,14 @@
     overflow: hidden;
 }
 
+.logo{
+    width: 170px;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+
+}
+
 .about-img::before {
     content: "";
     width: 100%;
@@ -765,6 +773,37 @@
     display: flex;
     align-items: center; 
     justify-content: center;
+
+}
+
+.lento{
+        animation-duration: 3s;
+        animation-name: slidein;
+}
+      
+      @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%;
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
+      
+.letras-b{
+    font-size: 200%;
+    color:aliceblue;
+    text-align: center;
+
+}
+.letras-ba{
+    font-size: 150%;
+    color:aliceblue;
+    text-align: center;
+
 }
 
 /*** Copywright End ***/
