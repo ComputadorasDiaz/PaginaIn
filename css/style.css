@@ -273,6 +273,13 @@
     vertical-align: middle;
 
 }
+.imagenesservice{
+    width: 170px;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+
+}
 
 .about-img::before {
     content: "";
@@ -376,7 +383,7 @@
     height: 100%;
     margin-top: -50%;
     margin-left: -50%;
-    background: var(--bs-primary);
+    background: #004a0a;
     color: var(--bs-dark);
     
 } 
@@ -775,7 +782,7 @@
     justify-content: center;
 
 }
-
+/***styles de contactos***/
 .lento{
         animation-duration: 3s;
         animation-name: slidein;
@@ -805,5 +812,19 @@
     text-align: center;
 
 }
+/*** styles de servicios***/
 
+.imageneservice{
+    width: 5000px;
+    max-width: 5000%;
+    height: auto;
+    vertical-align: middle;
+
+}
+.letras-ser{
+    font-size: 150%;
+    color:rgb(0, 0, 0);
+    text-align: center;
+
+}
 /*** Copywright End ***/
