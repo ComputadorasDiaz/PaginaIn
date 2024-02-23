@@ -827,4 +827,13 @@
     text-align: center;
 
 }
+.imagen-modal{
+    position: relative;
+    z-index: 2;
+    border-radius: 10px;
+}
+
+
+
 /*** Copywright End ***/
+
