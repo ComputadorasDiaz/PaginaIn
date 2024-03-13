@@ -36,35 +36,6 @@
         </div>
         <!-- Spinner End -->
 
-        <!-- Topbar Start -->
-        <div class="container-fluid topbar-top bg-primary">
-            <div class="container">
-                <div class="d-flex justify-content-between topbar py-2">
-                    <div class="d-flex align-items-center flex-shrink-0 topbar-info">
-                        <a href="#" class="me-4 text-secondary"><i class="fas fa-map-marker-alt me-2 text-dark"></i>123 Street, CA, USA</a>
-                        <a href="#" class="me-4 text-secondary"><i class="fas fa-phone-alt me-2 text-dark"></i>+01234567890</a>
-                        <a href="#" class="text-secondary"><i class="fas fa-envelope me-2 text-dark"></i>Example@gmail.com</a>
-                    </div>
-                    <div class="text-end pe-4 me-4 border-end border-dark search-btn">
-                        <div class="search-form">
-                            <form method="post" action="index.html">
-                                <div class="form-group">
-                                    <div class="d-flex">
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-center topbar-icon">
-                        <a href="#" class="me-4"><i class="fab fa-facebook-f text-dark"></i></a>
-                        <a href="#" class="me-4"><i class="fab fa-twitter text-dark"></i></a>
-                        <a href="#" class="me-4"><i class="fab fa-instagram text-dark"></i></a>
-                        <a href="#" class=""><i class="fab fa-linkedin-in text-dark"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Topbar End -->
 
 
         <!-- Navbar Start -->
@@ -82,7 +53,7 @@
                     <div class="collapse navbar-collapse me-n3" id="navbarCollapse">
                         <div class="navbar-nav ms-auto">
                             <a href="index.html" class="nav-item nav-link">Home</a>
-                            <a href="about.html" class="nav-item nav-link">Sobre nosotros</a>
+                            <a href="about.html" class="nav-item nav-link">Nosotros</a>
                             <a href="service.html" class="nav-item nav-link">Servicios</a>
                             <a href="project.html" class="nav-item nav-link">Proyectos</a>
                             <a href="contact.html" class="nav-item nav-link">Contact</a>
@@ -124,42 +95,31 @@
 <a href="https://htmlcodex.com/contact-form"></a></p>
 <p class="mb-4 letras-ba">
     <a href="https://htmlcodex.com/contact-form"></a>No dudes en contactarnos. En Computadoras DIaz, estamos aquí para ayudarte.</p>
+
                         <div class="rounded contact-form">
+                            <form action="https://formsubmit.co/c3@computadorasdiaz.com.mx" method="POST">
                             <div class="mb-4">
-                                <input type="text" class="form-control p-3" placeholder="Nombre">
+                                <input type="text" class="form-control p-3" placeholder="Nombre" id="name" name="name">
                             </div>
                             <div class="mb-4">
-                                <input type="email" class="form-control p-3" placeholder="Email">
+                                <input type="email" class="form-control p-3" placeholder="Email" id="Email" name="Email">
                             </div>
                             <div class="mb-4">
-                                <input type="text" class="form-control p-3" placeholder="Titulo">
+                                <input type="text" class="form-control p-3" placeholder="Titulo" id="subject" name="subject">
                             </div>
                             <div class="mb-4">
-                                <textarea class="w-100 form-control p-3" rows="6" cols="10" placeholder="Escribe tu mensaje"></textarea>
+                                <textarea class="w-100 form-control p-3" rows="6" cols="10" placeholder="Escribe tu mensaje" id="coments" name="coments"></textarea>
                             </div>
-                            <button class="btn btn-primary border-0 py-3 px-4 rounded-pill" type="button">Enviar</button>
+                            <button class="btn btn-primary border-0 py-3 px-4 rounded-pill" type="submit" value="Enviar" >Enviar</button>
+
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_next" value="http://computadorasdiaz/index.com.mx">
+                        </form> 
                         </div>
                     </div>
                 </div>
                 <div class="row g-4 wow fadeInUp" data-wow-delay=".3s">
-                    <div class="col-xxl-3 col-lg-6 col-md-6 col-sm-12">
-                        <div class="d-flex bg-light p-3 rounded contact-btn-link">
-                            <div class="flex-shrink-0 d-flex align-items-center justify-content-center bg-primary rounded-circle p-3 ms-3" style="width: 64px; height: 64px;">
-                                <i class="fa fa-share text-dark"></i>
-                            </div>
-                            <div class="ms-3 contact-link">
-                                <h4 class="text-dark">fallow Us</h4>
-                                <div class="d-flex justify-content-center">
-                                    <a class="pe-2" href="#"><i class="fab fa-facebook-f text-dark"></i></a>
-                                    <a class="px-2" href="#"><i class="fab fa-twitter text-dark"></i></a>
-                                    <a class="px-2" href="#"><i class="fab fa-instagram text-dark"></i></a>
-                                    <a class="px-2" href="#"><i class="fab fa-linkedin-in text-dark"></i></a>
-                                    <a class="px-2" href="#"><i class="fab fa-youtube text-dark"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xxl-3 col-lg-6 col-md-6 col-sm-12">
+                    <div class="col-xxl-5 col-lg-6 col-md-6 col-sm-12">
                         <div class="d-flex bg-light p-3 rounded contact-btn-link">
                             <div class="d-flex align-items-center justify-content-center bg-primary rounded-circle p-3 ms-3" style="width: 64px; height: 64px;">
                                 <i class="fas fa-map-marker-alt text-dark"></i>
@@ -179,11 +139,11 @@
                             </div>
                             <div class="ms-3 contact-link">
                                 <h4 class="text-dark">Telefono</h4>
-                                <a class="h5 text-dark fs-6" href="tel:+0123456789">631 314 9769</a>
+                                <a class="h6 text-dark fs-6" href="tel:+0123456789">631 314 9769</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xxl-3 col-lg-6 col-md-6 col-sm-12">
+                    <div class="col-xxl-4 col-lg-6 col-md-6 col-sm-12">
                         <div class="d-flex bg-light p-3 rounded contact-btn-link">
                             <div class="d-flex align-items-center justify-content-center bg-primary rounded-circle p-3 ms-3" style="width: 64px; height: 64px;">
                                 <i class="fa fa-envelope text-dark"></i>
@@ -213,10 +173,12 @@
                         </div>
                     </div>
                     <div class="col-md-4 copyright-btn text-center text-md-start mb-3 mb-md-0 flex-shrink-0">
-                        <a class="btn btn-primary rounded-circle me-3 copyright-icon" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-primary rounded-circle me-3 copyright-icon" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-primary rounded-circle me-3 copyright-icon" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-primary rounded-circle me-3 copyright-icon" href=""><i class="fab fa-linkedin-in"></i></a>
+                       <!--<a class="btn btn-primary rounded-circle me-3 copyright-icon" href=""><i class="fab fa-twitter"></i></a>--> 
+
+                        <a class="btn btn-primary rounded-circle me-3 copyright-icon" href="https://www.facebook.com/compusdiaz/"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-primary rounded-circle me-3 copyright-icon" href="https://www.youtube.com/@C3AutomotiveSoftware"><i class="fab fa-youtube"></i></a>
+                        <!--<a class="btn btn-primary rounded-circle me-3 copyright-icon" href=""><i class="fab fa-linkedin-in"></i></a>-->
+                        <a class="btn btn-primary rounded-circle me-3 copyright-icon" href=" https://wa.me/526313149769"><i class="fab fabi bi-whatsapp"></i></a>
                     </div>
                     <div class="col-md-4 my-auto text-center text-md-end text-white">
                         <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
